@@ -5,6 +5,7 @@ Ye Olde SVG Maker is a Node.js command-line application that allows users to cre
 
 ## Table of Contents
 - [Installation](#installation)
+- [Screenshots](#screenshots)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
@@ -12,7 +13,29 @@ Ye Olde SVG Maker is a Node.js command-line application that allows users to cre
 - [Questions](#questions)
 
 ## Installation
-Clone the repository:https://github.com/AaronBringhurst/Ye-Old-SVG-Generator
+1. Clone the repository:https://github.com/AaronBringhurst/Ye-Old-SVG-Generator
+
+2. Install dependencies:
+npm install
+
+3. Start the server:
+npm start
+
+## Screenshots
+
+Here are some screenshots from the project:
+
+### Cat
+![Cat](lib/images/cat.png)
+
+### Dog
+![Dog](lib/images/dog.png)
+
+### Rat
+![Rat](lib/images/rat.png)
+
+### Running Application
+![Running Application](lib/images/running%20app1.png)
 
 ## Usage
 To use Ye Olde SVG Maker, run the following command in the terminal: node index.js Follow the prompts to select your logo's shape, set the colors, and input your text. The SVG file will be generated in the 'dist' directory as 'logo.svg'.
@@ -24,10 +47,20 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
 
 ## Contributing
-Please Email me!
+Contributions to the Ye Olde SVG Maker are welcome! Here's how you can contribute:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 
 ## Tests
 To run tests, navigate to the project directory and run: npm test This will execute the Jest test suites defined for the shape classes.
 
 ## Questions
-If you have any questions about the project, you can open an issue or contact me directly at [bringhurst.aaron@gmail.com](mailto:bringhurst.aaron@gmail.com). You can find more of my work at [AaronBringhurst's GitHub](https://github.com/AaronBringhurst).
+If you have any questions about the project, feel free to reach out:
+
+- GitHub: [Aaron Bringhurst](https://github.com/AaronBringhurst)
+- Email: bringhurst.aaron@gmail.com
